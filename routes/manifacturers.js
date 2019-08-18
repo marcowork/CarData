@@ -7,7 +7,7 @@ router.get('/', (req, res) =>
     Manifacturer.findAll()
         .then(manifacturers => {
             console.log(manifacturers);
-            red.sendStatus(200);
+            res.sendStatus(200);
 
         })
         .catch(err => console.log(err)));
