@@ -1,0 +1,31 @@
+{
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "this application gives you an overview of all cars available",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcowork/CarData.git"
+  },
+  "author": "stanleyredd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcowork/CarData/issues"
+  },
+  "homepage": "https://github.com/marcowork/CarData#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-hbs": "^2.1.2",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
