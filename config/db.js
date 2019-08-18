@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports =  new Sequelize('Cars', 'postgres', 'root', {
+module.exports =  new Sequelize('cars', 'postgres', 'root', {
     host: 'localhost',
     dialect: 'postgres',
     opratorsAliases: false,
